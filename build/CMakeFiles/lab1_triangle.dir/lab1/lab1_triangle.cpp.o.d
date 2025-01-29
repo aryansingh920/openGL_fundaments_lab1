@@ -368,6 +368,34 @@ CMakeFiles/lab1_triangle.dir/lab1/lab1_triangle.cpp.o: \
   /Users/aryansingh/Downloads/lab1/external/glm-0.9.7.1/glm/gtc/../geometric.hpp \
   /Users/aryansingh/Downloads/lab1/external/glm-0.9.7.1/glm/gtc/../trigonometric.hpp \
   /Users/aryansingh/Downloads/lab1/external/glm-0.9.7.1/glm/gtc/../matrix.hpp \
+  /Users/aryansingh/Downloads/lab1/external/glm-0.9.7.1/glm/gtc/type_ptr.hpp \
+  /Users/aryansingh/Downloads/lab1/external/glm-0.9.7.1/glm/gtc/../gtc/quaternion.hpp \
+  /Users/aryansingh/Downloads/lab1/external/glm-0.9.7.1/glm/gtc/../gtc/../mat3x3.hpp \
+  /Users/aryansingh/Downloads/lab1/external/glm-0.9.7.1/glm/gtc/../gtc/../mat4x4.hpp \
+  /Users/aryansingh/Downloads/lab1/external/glm-0.9.7.1/glm/gtc/../gtc/../vec3.hpp \
+  /Users/aryansingh/Downloads/lab1/external/glm-0.9.7.1/glm/gtc/../gtc/../vec4.hpp \
+  /Users/aryansingh/Downloads/lab1/external/glm-0.9.7.1/glm/gtc/../gtc/../gtc/constants.hpp \
+  /Users/aryansingh/Downloads/lab1/external/glm-0.9.7.1/glm/gtc/../gtc/quaternion.inl \
+  /Users/aryansingh/Downloads/lab1/external/glm-0.9.7.1/glm/gtc/../gtc/../trigonometric.hpp \
+  /Users/aryansingh/Downloads/lab1/external/glm-0.9.7.1/glm/gtc/../gtc/../geometric.hpp \
+  /Users/aryansingh/Downloads/lab1/external/glm-0.9.7.1/glm/gtc/../gtc/../exponential.hpp \
+  /Users/aryansingh/Downloads/lab1/external/glm-0.9.7.1/glm/gtc/../mat2x2.hpp \
+  /Users/aryansingh/Downloads/lab1/external/glm-0.9.7.1/glm/gtc/../mat2x3.hpp \
+  /Users/aryansingh/Downloads/lab1/external/glm-0.9.7.1/glm/gtc/../mat2x4.hpp \
+  /Users/aryansingh/Downloads/lab1/external/glm-0.9.7.1/glm/gtc/../mat3x2.hpp \
+  /Users/aryansingh/Downloads/lab1/external/glm-0.9.7.1/glm/gtc/../mat3x3.hpp \
+  /Users/aryansingh/Downloads/lab1/external/glm-0.9.7.1/glm/gtc/../mat3x4.hpp \
+  /Users/aryansingh/Downloads/lab1/external/glm-0.9.7.1/glm/gtc/../mat4x2.hpp \
+  /Users/aryansingh/Downloads/lab1/external/glm-0.9.7.1/glm/gtc/../mat4x3.hpp \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/cstring \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/string.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/string.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/_string.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_rsize_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_errno_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_ssize_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/_strings.h \
+  /Users/aryansingh/Downloads/lab1/external/glm-0.9.7.1/glm/gtc/type_ptr.inl \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/vector \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__algorithm/copy.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__algorithm/copy_move_common.h \
@@ -518,7 +546,6 @@ CMakeFiles/lab1_triangle.dir/lab1/lab1_triangle.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_seek_set.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/_ctermid.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_off_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_ssize_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/time.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/_time.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_clock_t.h \
@@ -533,13 +560,6 @@ CMakeFiles/lab1_triangle.dir/lab1/lab1_triangle.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__bit_reference \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__algorithm/copy_n.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__bit/popcount.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/cstring \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/string.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/string.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/_string.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_rsize_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_errno_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/_strings.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__format/enable_insertable.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__format/formatter.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__format/format_fwd.h \

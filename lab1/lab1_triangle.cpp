@@ -2,7 +2,7 @@
 #include <GLFW/glfw3.h>
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
-
+#include <glm/gtc/type_ptr.hpp>
 #include <vector>
 #include <iostream>
 #include <fstream>
@@ -185,29 +185,25 @@ int main(void)
 	{
 		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
-		// TODO 2: render the triangle
-		// ---------------------------
-		// Enable the GLSL program
-		glUseProgram(programID);
+		// Calculate rotation matrix
+		float angle = (float)glfwGetTime(); // Use time to animate rotation
+		glm::mat4 transform = glm::rotate(glm::mat4(1.0f), angle, glm::vec3(0.0f, 0.0f, 1.0f));
 
-		// Bind the vertex buffer and specify the layout of vertex data
+		// Get the location of the 'transform' uniform in the shader
+		GLuint transformLoc = glGetUniformLocation(programID, "transform");
+
+		// Pass the transformation matrix to the shader
+		glUseProgram(programID);
+		glUniformMatrix4fv(transformLoc, 1, GL_FALSE, glm::value_ptr(transform));
+
+		// Bind and render the triangle
 		glEnableVertexAttribArray(0);
 		glBindBuffer(GL_ARRAY_BUFFER, VertexBufferID);
-		glVertexAttribPointer(
-			0,		  // location of the buffer
-			3,		  // number of components per attribute (x, y, z)
-			GL_FLOAT, // type
-			GL_FALSE, // normalized
-			0,		  // stride
-			(void *)0 // array buffer offset
-		);
-
-		// Draw the triangle
+		glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 0, (void *)0);
 		glDrawArrays(GL_TRIANGLES, 0, 3);
-
 		glDisableVertexAttribArray(0);
 
-		// Swap buffers
+		// Swap buffers and poll events
 		glfwSwapBuffers(window);
 		glfwPollEvents();
 
