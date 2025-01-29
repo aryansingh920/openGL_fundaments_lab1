@@ -155,6 +155,31 @@ int main(void)
 
 	// TODO 1: Load triangle into the GPU memory
 	// -----------------------------------------
+	// Define a triangle with three (x, y, z) coordinates
+	static const GLfloat vertex_buffer_data[] = {
+		-0.5f, -0.5f, 0.0f, // Vertex 1
+		0.5f, -0.5f, 0.0f,	// Vertex 2
+		0.0f, 0.5f, 0.0f	// Vertex 3
+	};
+
+	// Create a Vertex Array Object (VAO)
+	GLuint VertexArrayID;
+	glGenVertexArrays(1, &VertexArrayID);
+	glBindVertexArray(VertexArrayID);
+
+	// Create a Vertex Buffer Object (VBO) to store the vertex data
+	GLuint VertexBufferID;
+	glGenBuffers(1, &VertexBufferID);
+	glBindBuffer(GL_ARRAY_BUFFER, VertexBufferID);
+	glBufferData(GL_ARRAY_BUFFER, sizeof(vertex_buffer_data), vertex_buffer_data, GL_STATIC_DRAW);
+
+	// Load shaders and create a GLSL program
+	GLuint programID = LoadShaders("../lab1/lab1_triangle.vert", "../lab1/lab1_triangle.frag");
+	if (programID == 0)
+	{
+		std::cerr << "Failed to load shaders." << std::endl;
+		return -1;
+	}
 
 	do
 	{
@@ -162,6 +187,25 @@ int main(void)
 
 		// TODO 2: render the triangle
 		// ---------------------------
+		// Enable the GLSL program
+		glUseProgram(programID);
+
+		// Bind the vertex buffer and specify the layout of vertex data
+		glEnableVertexAttribArray(0);
+		glBindBuffer(GL_ARRAY_BUFFER, VertexBufferID);
+		glVertexAttribPointer(
+			0,		  // location of the buffer
+			3,		  // number of components per attribute (x, y, z)
+			GL_FLOAT, // type
+			GL_FALSE, // normalized
+			0,		  // stride
+			(void *)0 // array buffer offset
+		);
+
+		// Draw the triangle
+		glDrawArrays(GL_TRIANGLES, 0, 3);
+
+		glDisableVertexAttribArray(0);
 
 		// Swap buffers
 		glfwSwapBuffers(window);
@@ -172,6 +216,10 @@ int main(void)
 
 	// TODO 3: clean up
 	// ----------------
+	// Cleanup
+	glDeleteBuffers(1, &VertexBufferID);
+	glDeleteVertexArrays(1, &VertexArrayID);
+	glDeleteProgram(programID);
 
 	// Close OpenGL window and terminate GLFW
 	glfwTerminate();
