@@ -1,0 +1,92 @@
+[
+{
+  "directory": "/Users/aryansingh/Downloads/lab1/build",
+  "command": "/usr/bin/clang++  -I/Users/aryansingh/Downloads/lab1/external/glfw-3.1.2/include -I/Users/aryansingh/Downloads/lab1/external/glm-0.9.7.1 -I/Users/aryansingh/Downloads/lab1/external/glad-opengl-3.3/include -I/Users/aryansingh/Downloads/lab1/. -F/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -o CMakeFiles/lab1_window.dir/lab1/lab1_window.cpp.o -c /Users/aryansingh/Downloads/lab1/lab1/lab1_window.cpp",
+  "file": "/Users/aryansingh/Downloads/lab1/lab1/lab1_window.cpp",
+  "output": "CMakeFiles/lab1_window.dir/lab1/lab1_window.cpp.o"
+},
+{
+  "directory": "/Users/aryansingh/Downloads/lab1/build",
+  "command": "/usr/bin/clang++  -I/Users/aryansingh/Downloads/lab1/external/glfw-3.1.2/include -I/Users/aryansingh/Downloads/lab1/external/glm-0.9.7.1 -I/Users/aryansingh/Downloads/lab1/external/glad-opengl-3.3/include -I/Users/aryansingh/Downloads/lab1/. -I/Users/aryansingh/Downloads/lab1/external/glad-3.3/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -o CMakeFiles/lab1_triangle.dir/lab1/lab1_triangle.cpp.o -c /Users/aryansingh/Downloads/lab1/lab1/lab1_triangle.cpp",
+  "file": "/Users/aryansingh/Downloads/lab1/lab1/lab1_triangle.cpp",
+  "output": "CMakeFiles/lab1_triangle.dir/lab1/lab1_triangle.cpp.o"
+},
+{
+  "directory": "/Users/aryansingh/Downloads/lab1/build/external/glad-3.3",
+  "command": "/usr/bin/clang -Dglad_EXPORTS -I/Users/aryansingh/Downloads/lab1/external/glad-3.3/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fPIC -o CMakeFiles/glad.dir/src/gl.c.o -c /Users/aryansingh/Downloads/lab1/external/glad-3.3/src/gl.c",
+  "file": "/Users/aryansingh/Downloads/lab1/external/glad-3.3/src/gl.c",
+  "output": "external/glad-3.3/CMakeFiles/glad.dir/src/gl.c.o"
+},
+{
+  "directory": "/Users/aryansingh/Downloads/lab1/build/external/glfw-3.1.2/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -Dglfw_EXPORTS -I/Users/aryansingh/Downloads/lab1/external/glad-3.3/include -I/Users/aryansingh/Downloads/lab1/external/glfw-3.1.2/src -I/Users/aryansingh/Downloads/lab1/build/external/glfw-3.1.2/src -F/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fPIC   -Wall -fvisibility=hidden  -fno-common -o CMakeFiles/glfw.dir/context.c.o -c /Users/aryansingh/Downloads/lab1/external/glfw-3.1.2/src/context.c",
+  "file": "/Users/aryansingh/Downloads/lab1/external/glfw-3.1.2/src/context.c",
+  "output": "external/glfw-3.1.2/src/CMakeFiles/glfw.dir/context.c.o"
+},
+{
+  "directory": "/Users/aryansingh/Downloads/lab1/build/external/glfw-3.1.2/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -Dglfw_EXPORTS -I/Users/aryansingh/Downloads/lab1/external/glad-3.3/include -I/Users/aryansingh/Downloads/lab1/external/glfw-3.1.2/src -I/Users/aryansingh/Downloads/lab1/build/external/glfw-3.1.2/src -F/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fPIC   -Wall -fvisibility=hidden  -fno-common -o CMakeFiles/glfw.dir/init.c.o -c /Users/aryansingh/Downloads/lab1/external/glfw-3.1.2/src/init.c",
+  "file": "/Users/aryansingh/Downloads/lab1/external/glfw-3.1.2/src/init.c",
+  "output": "external/glfw-3.1.2/src/CMakeFiles/glfw.dir/init.c.o"
+},
+{
+  "directory": "/Users/aryansingh/Downloads/lab1/build/external/glfw-3.1.2/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -Dglfw_EXPORTS -I/Users/aryansingh/Downloads/lab1/external/glad-3.3/include -I/Users/aryansingh/Downloads/lab1/external/glfw-3.1.2/src -I/Users/aryansingh/Downloads/lab1/build/external/glfw-3.1.2/src -F/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fPIC   -Wall -fvisibility=hidden  -fno-common -o CMakeFiles/glfw.dir/input.c.o -c /Users/aryansingh/Downloads/lab1/external/glfw-3.1.2/src/input.c",
+  "file": "/Users/aryansingh/Downloads/lab1/external/glfw-3.1.2/src/input.c",
+  "output": "external/glfw-3.1.2/src/CMakeFiles/glfw.dir/input.c.o"
+},
+{
+  "directory": "/Users/aryansingh/Downloads/lab1/build/external/glfw-3.1.2/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -Dglfw_EXPORTS -I/Users/aryansingh/Downloads/lab1/external/glad-3.3/include -I/Users/aryansingh/Downloads/lab1/external/glfw-3.1.2/src -I/Users/aryansingh/Downloads/lab1/build/external/glfw-3.1.2/src -F/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fPIC   -Wall -fvisibility=hidden  -fno-common -o CMakeFiles/glfw.dir/monitor.c.o -c /Users/aryansingh/Downloads/lab1/external/glfw-3.1.2/src/monitor.c",
+  "file": "/Users/aryansingh/Downloads/lab1/external/glfw-3.1.2/src/monitor.c",
+  "output": "external/glfw-3.1.2/src/CMakeFiles/glfw.dir/monitor.c.o"
+},
+{
+  "directory": "/Users/aryansingh/Downloads/lab1/build/external/glfw-3.1.2/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -Dglfw_EXPORTS -I/Users/aryansingh/Downloads/lab1/external/glad-3.3/include -I/Users/aryansingh/Downloads/lab1/external/glfw-3.1.2/src -I/Users/aryansingh/Downloads/lab1/build/external/glfw-3.1.2/src -F/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fPIC   -Wall -fvisibility=hidden  -fno-common -o CMakeFiles/glfw.dir/window.c.o -c /Users/aryansingh/Downloads/lab1/external/glfw-3.1.2/src/window.c",
+  "file": "/Users/aryansingh/Downloads/lab1/external/glfw-3.1.2/src/window.c",
+  "output": "external/glfw-3.1.2/src/CMakeFiles/glfw.dir/window.c.o"
+},
+{
+  "directory": "/Users/aryansingh/Downloads/lab1/build/external/glfw-3.1.2/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -Dglfw_EXPORTS -I/Users/aryansingh/Downloads/lab1/external/glad-3.3/include -I/Users/aryansingh/Downloads/lab1/external/glfw-3.1.2/src -I/Users/aryansingh/Downloads/lab1/build/external/glfw-3.1.2/src -F/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fPIC   -Wall -fvisibility=hidden  -fno-common -o CMakeFiles/glfw.dir/cocoa_init.m.o -c /Users/aryansingh/Downloads/lab1/external/glfw-3.1.2/src/cocoa_init.m",
+  "file": "/Users/aryansingh/Downloads/lab1/external/glfw-3.1.2/src/cocoa_init.m",
+  "output": "external/glfw-3.1.2/src/CMakeFiles/glfw.dir/cocoa_init.m.o"
+},
+{
+  "directory": "/Users/aryansingh/Downloads/lab1/build/external/glfw-3.1.2/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -Dglfw_EXPORTS -I/Users/aryansingh/Downloads/lab1/external/glad-3.3/include -I/Users/aryansingh/Downloads/lab1/external/glfw-3.1.2/src -I/Users/aryansingh/Downloads/lab1/build/external/glfw-3.1.2/src -F/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fPIC   -Wall -fvisibility=hidden  -fno-common -o CMakeFiles/glfw.dir/cocoa_monitor.m.o -c /Users/aryansingh/Downloads/lab1/external/glfw-3.1.2/src/cocoa_monitor.m",
+  "file": "/Users/aryansingh/Downloads/lab1/external/glfw-3.1.2/src/cocoa_monitor.m",
+  "output": "external/glfw-3.1.2/src/CMakeFiles/glfw.dir/cocoa_monitor.m.o"
+},
+{
+  "directory": "/Users/aryansingh/Downloads/lab1/build/external/glfw-3.1.2/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -Dglfw_EXPORTS -I/Users/aryansingh/Downloads/lab1/external/glad-3.3/include -I/Users/aryansingh/Downloads/lab1/external/glfw-3.1.2/src -I/Users/aryansingh/Downloads/lab1/build/external/glfw-3.1.2/src -F/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fPIC   -Wall -fvisibility=hidden  -fno-common -o CMakeFiles/glfw.dir/cocoa_window.m.o -c /Users/aryansingh/Downloads/lab1/external/glfw-3.1.2/src/cocoa_window.m",
+  "file": "/Users/aryansingh/Downloads/lab1/external/glfw-3.1.2/src/cocoa_window.m",
+  "output": "external/glfw-3.1.2/src/CMakeFiles/glfw.dir/cocoa_window.m.o"
+},
+{
+  "directory": "/Users/aryansingh/Downloads/lab1/build/external/glfw-3.1.2/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -Dglfw_EXPORTS -I/Users/aryansingh/Downloads/lab1/external/glad-3.3/include -I/Users/aryansingh/Downloads/lab1/external/glfw-3.1.2/src -I/Users/aryansingh/Downloads/lab1/build/external/glfw-3.1.2/src -F/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fPIC   -Wall -fvisibility=hidden  -fno-common -o CMakeFiles/glfw.dir/iokit_joystick.m.o -c /Users/aryansingh/Downloads/lab1/external/glfw-3.1.2/src/iokit_joystick.m",
+  "file": "/Users/aryansingh/Downloads/lab1/external/glfw-3.1.2/src/iokit_joystick.m",
+  "output": "external/glfw-3.1.2/src/CMakeFiles/glfw.dir/iokit_joystick.m.o"
+},
+{
+  "directory": "/Users/aryansingh/Downloads/lab1/build/external/glfw-3.1.2/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -Dglfw_EXPORTS -I/Users/aryansingh/Downloads/lab1/external/glad-3.3/include -I/Users/aryansingh/Downloads/lab1/external/glfw-3.1.2/src -I/Users/aryansingh/Downloads/lab1/build/external/glfw-3.1.2/src -F/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fPIC   -Wall -fvisibility=hidden  -fno-common -o CMakeFiles/glfw.dir/mach_time.c.o -c /Users/aryansingh/Downloads/lab1/external/glfw-3.1.2/src/mach_time.c",
+  "file": "/Users/aryansingh/Downloads/lab1/external/glfw-3.1.2/src/mach_time.c",
+  "output": "external/glfw-3.1.2/src/CMakeFiles/glfw.dir/mach_time.c.o"
+},
+{
+  "directory": "/Users/aryansingh/Downloads/lab1/build/external/glfw-3.1.2/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -Dglfw_EXPORTS -I/Users/aryansingh/Downloads/lab1/external/glad-3.3/include -I/Users/aryansingh/Downloads/lab1/external/glfw-3.1.2/src -I/Users/aryansingh/Downloads/lab1/build/external/glfw-3.1.2/src -F/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fPIC   -Wall -fvisibility=hidden  -fno-common -o CMakeFiles/glfw.dir/posix_tls.c.o -c /Users/aryansingh/Downloads/lab1/external/glfw-3.1.2/src/posix_tls.c",
+  "file": "/Users/aryansingh/Downloads/lab1/external/glfw-3.1.2/src/posix_tls.c",
+  "output": "external/glfw-3.1.2/src/CMakeFiles/glfw.dir/posix_tls.c.o"
+},
+{
+  "directory": "/Users/aryansingh/Downloads/lab1/build/external/glfw-3.1.2/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -Dglfw_EXPORTS -I/Users/aryansingh/Downloads/lab1/external/glad-3.3/include -I/Users/aryansingh/Downloads/lab1/external/glfw-3.1.2/src -I/Users/aryansingh/Downloads/lab1/build/external/glfw-3.1.2/src -F/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fPIC   -Wall -fvisibility=hidden  -fno-common -o CMakeFiles/glfw.dir/nsgl_context.m.o -c /Users/aryansingh/Downloads/lab1/external/glfw-3.1.2/src/nsgl_context.m",
+  "file": "/Users/aryansingh/Downloads/lab1/external/glfw-3.1.2/src/nsgl_context.m",
+  "output": "external/glfw-3.1.2/src/CMakeFiles/glfw.dir/nsgl_context.m.o"
+}
+]

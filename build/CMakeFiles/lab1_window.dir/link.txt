@@ -1,0 +1,1 @@
+/usr/bin/clang++ -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/lab1_window.dir/lab1/lab1_window.cpp.o -o lab1_window  -framework OpenGL -framework OpenGL libglfw.3.1.dylib -framework Cocoa -framework OpenGL -framework IOKit -framework CoreFoundation -framework CoreVideo

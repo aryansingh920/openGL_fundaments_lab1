@@ -1,0 +1,1 @@
+/usr/bin/clang -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -dynamiclib -Wl,-headerpad_max_install_names -o ../../libglad.dylib -install_name @rpath/libglad.dylib CMakeFiles/glad.dir/src/gl.c.o
